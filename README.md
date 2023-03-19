@@ -1,5 +1,4 @@
 # veritas-admin
-# ZenceDashboard
 
 ![127 0 0 1_5173_ (1)](https://user-images.githubusercontent.com/117412844/226147416-7cd45ed6-a703-4471-8f0e-ba356e4342c7.png)
 
