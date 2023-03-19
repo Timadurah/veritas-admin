@@ -1,0 +1,160 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+       body{
+        display: none;
+        color: Black;
+        font-size: 30px;
+        font-weight: 900;
+        
+    }
+    body::before{
+        content: "<p>Another project stop me from conyinue it Hi me if you nend me to make it responsively</p>";
+   position: relative;
+   left: 30%;
+   top: 40%;
+    }
+    .sidebar{
+display: none;    }
+.main{
+    width: 100%;
+}
+.datatablerow2{
+    overflow-x: scroll;
+    width: 100vw;
+  
+  }
+  .datatablerow2::-webkit-scrollbar {
+    height: 5px;
+  }
+  
+  .datatablerow2::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: transparent;
+  }
+  .datatablerow2::-webkit-scrollbar-thumb {
+    background-color: rgb(220, 228, 231);
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgb(176, 179, 193);
+  }
+  
+ .Detail{
+    min-width: 30% !important;
+ } 
+  .datatablerow2 > div{
+    min-width:30% ;
+    margin-right: 50px;
+    flex-shrink: 0;
+  }
+
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+       body{
+        display: none;
+        color: Black;
+        font-size: 30px;
+        font-weight: 900;
+        
+        content: "Another project stop me from conyinue it Hi me if you nend me to make it responsively";
+    }
+    body::before{
+        content: "Another project stop me from conyinue it Hi me if you nend me to make it responsively";
+   position: relative;
+   left: 30%;
+   top: 40%;
+    }
+    .sidebar{
+        display: none;    }
+        .main{
+            width: 100%;
+        }
+        .datatablerow2{
+            overflow-x: scroll;
+            width: 100vw;
+          
+          }
+          .datatablerow2::-webkit-scrollbar {
+            height: 5px;
+          }
+          
+          .datatablerow2::-webkit-scrollbar-track {
+            border-radius: 10px;
+            background: transparent;
+          }
+          .datatablerow2::-webkit-scrollbar-thumb {
+            background-color: rgb(220, 228, 231);
+            border-radius: 10px;
+            box-shadow: inset 0 0 5px rgb(176, 179, 193);
+          }
+          
+         .Detail{
+            min-width: 30% !important;
+         } 
+          .datatablerow2 > div{
+            min-width:30% ;
+            margin-right: 50px;
+            flex-shrink: 0;
+          }
+ 
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+       body{
+        display: none;
+        color: Black;
+        font-size: 30px;
+        font-weight: 900;
+        
+        content: "Another project stop me from conyinue it Hi me if you nend me to make it responsively";
+    }
+    body::before{
+        content: "Another project stop me from conyinue it Hi me if you nend me to make it responsively";
+   position: relative;
+   left: 30%;
+   top: 40%;
+    }
+    .sidebar{
+        display: none;    }
+        .main{
+            width: 100%;
+        }
+        .datatablerow2{
+            overflow-x: scroll;
+            width: 100vw;
+          
+          }
+          .datatablerow2::-webkit-scrollbar {
+            height: 5px;
+          }
+          
+          .datatablerow2::-webkit-scrollbar-track {
+            border-radius: 10px;
+            background: transparent;
+          }
+          .datatablerow2::-webkit-scrollbar-thumb {
+            background-color: rgb(220, 228, 231);
+            border-radius: 10px;
+            box-shadow: inset 0 0 5px rgb(176, 179, 193);
+          }
+          
+         .Detail{
+            min-width: 30% !important;
+         } 
+          .datatablerow2 > div{
+            min-width:30% ;
+            margin-right: 50px;
+            flex-shrink: 0;
+          }
+
+}
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+       
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+     
+}

@@ -9,7 +9,7 @@ export default function Main() {
   return (
     <div className="main p-4">
       <MainHeader />
-      <div className="d-flex justify-content-between py-4">
+      <div className="d-flex justify-content-between py-4 col-12 datatablerow2">
         <TeamPayment />
         <Savings />
         <Income />

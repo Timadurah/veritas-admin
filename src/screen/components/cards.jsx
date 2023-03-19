@@ -84,7 +84,7 @@ export function Detail() {
           
         <div  className="p-2 col-2 teampayment position-relative" style={{ border: "1px dashed gray",borderRadius: '30px' }} >
    
-   <div  className="bg-white col-2 Detail position-absolute" style={{left:'-20px', top:'15px',borderRadius: '30px'}} >
+   <div  className="bg-white col-lg-2 Detail position-absolute" style={{left:'-20px', top:'15px',borderRadius: '30px'}} >
 <div className="detailbg p-2" style={{borderTopRightRadius: '30px', borderTopLeftRadius: '30PX'}}>
 <div className='p-2 text-white' style={{fontSize:'25px', fontWeight:'800'}}>$95.9
 <p className='mx-1 text-white'  style={{fontSize:'6px'}}> per month </p>
